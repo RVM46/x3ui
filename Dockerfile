@@ -21,6 +21,6 @@ COPY start.sh /start.sh
 RUN chmod +x /start.sh
 
 # پورت را داینامیک می‌کنیم
-EXPOSE ${PORT:-2053}
+EXPOSE ${PORT:-3000}
 
 CMD ["/start.sh"]
